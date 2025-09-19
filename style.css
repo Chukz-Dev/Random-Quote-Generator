@@ -140,10 +140,13 @@ footer{
   }
 
   #enter{
-    box-sizing: content-box;
     font-size: 25px;
   }
 
+  .p-ctn{
+    font-size: 25px;
+  }
+  
   .quote{
     font-size: 25px;
   }
@@ -178,5 +181,6 @@ footer{
   height: 30px;
   }
 }
+
 
 
