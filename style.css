@@ -114,9 +114,6 @@ footer{
 }
 
 @media (max-width: 900px) {
-    main{
-      height: auto;
-    }
   
    #head{
     font-size: 35px;
@@ -183,6 +180,7 @@ footer{
   height: 30px;
   }
 }
+
 
 
 
