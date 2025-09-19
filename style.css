@@ -141,6 +141,7 @@ footer{
 
   #enter{
     box-sizing: content-box;
+    font-size: 25px;
   }
 
   .quote{
@@ -177,4 +178,5 @@ footer{
   height: 30px;
   }
 }
+
 
