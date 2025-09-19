@@ -85,7 +85,7 @@ button{
   border-radius: 10px;
   font-weight: bold;
   transition: 0.15s;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 button:hover{
@@ -97,7 +97,7 @@ button:active{
 }
 
 footer{
-  position: relative;
+  position: absolute;
   bottom: 0px;
   right: 0px;
   left: 0px;
@@ -176,13 +176,14 @@ footer{
   }
 
   footer{
-  position: relative;
+  position: absolute;
   bottom: 0px;
   right: 0px;
   left: 0px;
   height: 30px;
   }
 }
+
 
 
 
