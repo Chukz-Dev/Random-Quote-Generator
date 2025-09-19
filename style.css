@@ -1,0 +1,160 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  color: #fff;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, #00001C, #6765EC);
+}
+
+#head{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 50px;
+  font-weight: 600;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#heading{
+  position: absolute;
+  top: 43%;
+  left: 30%;
+  transform: translateX(-50%);
+}
+
+#second{
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.font{
+  font-size: 40px;
+  font-style: oblique;
+  width: 80%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#ctn{
+  border: none;
+  box-shadow: 0px 0px 10px ;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #121149;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.quote{
+  font-style: italic;
+}
+
+.p-ctn{
+  margin-bottom: 40px;
+}
+
+#name{
+  position: absolute;
+  right: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  cursor: pointer;
+  transform: translateX(-50%);
+  border: none;
+  padding: 10px 60px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.15s;
+}
+
+button:hover{
+  background-color: #b5b4e0;
+}
+
+button:active{
+  background-color: #4a49a1;
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #fff;
+  font-size: small;
+  font-weight: 500;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@media (max-width: 900px) {
+   #head{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+   }
+
+  #heading{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  }
+
+  .font{
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #second{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+
+  #ctn{
+    width: 300px;
+  }
+
+  button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 250px;
+  }
+
+  footer{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 30px;
+  }
+}
